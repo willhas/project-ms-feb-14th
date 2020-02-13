@@ -1,0 +1,22 @@
+---
+title: "Final_project_MS_2"
+author: "William Haslam"
+date: "12/02/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Discussing the pros and cons of two projects:
+
+Project 1: Analysis of Seasons and Characters in The Office
+
+This project takes as it's data set the characters found in the highly successful US sitcom, The Office. THis is a fun and novel data set to explore, and is a key strength of this project. The season 1 breakdown of lines per character effectively uses colour, however the use of colour in the imbd rating over all episodes graph is marginally distracting. Nevertheless, the idea to combine ratings data is a very interesting one as it allows for conclusions about the shows popularity and how it has changed over time to be deduced. I very much like the sentiment analysis graph and here the use of colour greatly enhances the user experience. Another weakness is that the relationships graph would benefit from more explanation, but nevertheless it is an interesting - if under-explained - area to explore. 
+
+
+
+Project 2: Outlining the relationship between Regime and Economic Development
+
+This project looks at how the nature of the government (as regards to democracy, autocracy etc) has an impact on economic development. There have long been economic theories suggesting that authoritarian leaning governments may be desirable for countries making the first steps from developing to developed. As such, a key strength of this project is that it speaks to a useful policy question and is able to contribute to testing an existing theory. This applicability is something I hope to replicate in my project. Another strength is the ability on the first page to select any country and see their GDP per capita growth. This provides a nice way into the other data sets and the country search functionality is an excellent user interface. The output graph itself could be improved - for example the scale on the y axis uses exponetials which is hard to read and lacks any unit. Similarly for the Asian Tiger Advanced graph on the second tab, the presentation of regime vs GDP graph is nicely faceted and coloured but the inclusion of outliers makes it hard to accept the trend lines given. 
